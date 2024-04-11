@@ -1,0 +1,9 @@
+﻿.text-ellipsisself {
+    white-space: nowrap;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+

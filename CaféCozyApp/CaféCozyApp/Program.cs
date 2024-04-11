@@ -1,5 +1,7 @@
 using CaféCozyApp.Data;
 using CaféCozyApp.Models.Identity;
+using CaféCozyApp.Services.Interfaces;
+using CaféCozyApp.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,7 +17,11 @@ builder.Services.AddDbContext<AppDbContext>(option =>
 });
 
 builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
- 
+
+
+builder.Services.AddScoped<ISliderService, SliderService>();
+
+
 
 
 var app = builder.Build();
@@ -33,11 +39,20 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseSession();
+
+
 app.UseAuthentication();
 app.UseAuthorization();
+
+
+app.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 app.Run();
