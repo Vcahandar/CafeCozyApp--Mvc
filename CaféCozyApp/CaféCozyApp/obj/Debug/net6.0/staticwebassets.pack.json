@@ -1,0 +1,817 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CaféCozyApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CaféCozyApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\about.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\bga.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-22.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\menu-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\overlay-bottom.png",
+      "PackagePath": "staticwebassets\\assets\\img\\overlay-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\overlay-top.png",
+      "PackagePath": "staticwebassets\\assets\\img\\overlay-top.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\service-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\service-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\service-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\service-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\assets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\mail\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\assets\\mail\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\assets\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\style.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\about\\about.png",
+      "PackagePath": "staticwebassets\\uploads\\about\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\ab6427b2-03a1-4914-ac8d-09017e0f4023doner-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\ab6427b2-03a1-4914-ac8d-09017e0f4023doner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-10.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-11.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-12.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-13.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-14.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-15.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-16.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-17.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-18.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-20.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\products\\menu-9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\menu-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\services\\service-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\services\\service-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\services\\service-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\services\\service-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\services\\service-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\services\\service-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\services\\service-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\services\\service-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\coffe-slider.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\coffe-slider.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\coffe-slider2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\coffe-slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\coffe-slider3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\coffe-slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\visitors\\20863742-c930-4dfd-b6c1-6060e1ce192cmenu-17.jpg",
+      "PackagePath": "staticwebassets\\uploads\\visitors\\20863742-c930-4dfd-b6c1-6060e1ce192cmenu-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\visitors\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\visitors\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\visitors\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\visitors\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\visitors\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\visitors\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\visitors\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\visitors\\testimonial-4.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CaféCozyApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CaféCozyApp.props",
+      "PackagePath": "build\\CaféCozyApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CaféCozyApp.props",
+      "PackagePath": "buildMultiTargeting\\CaféCozyApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CaféCozyApp.props",
+      "PackagePath": "buildTransitive\\CaféCozyApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
