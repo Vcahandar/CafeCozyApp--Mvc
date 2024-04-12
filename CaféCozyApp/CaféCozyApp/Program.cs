@@ -20,6 +20,14 @@ builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<A
 
 
 builder.Services.AddScoped<ISliderService, SliderService>();
+builder.Services.AddScoped<IAboutFeatureService, AboutFeatureService>();
+builder.Services.AddScoped<IAppService, AppService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IContactService, ContactService>();
+builder.Services.AddScoped<ILayoutService, LayoutService>();
+builder.Services.AddScoped<IReservationService, ReservationService>();
+builder.Services.AddScoped<ISliderService, SliderService>();
+builder.Services.AddScoped<ISubscriberService, SubscriberService>();
 
 
 

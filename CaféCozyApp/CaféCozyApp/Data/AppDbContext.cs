@@ -1,4 +1,5 @@
 ﻿using CaféCozyApp.Models;
+using CaféCozyApp.Models.Common;
 using CaféCozyApp.Models.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -35,6 +36,32 @@ namespace CaféCozyApp.Data
             modelBuilder.Entity<Reservation>().HasQueryFilter(m => !m.IsDeleted);
             modelBuilder.Entity<AboutFeature>().HasQueryFilter(m => !m.IsDeleted);
 
+        }
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            var entries = ChangeTracker.Entries<BaseEntity>();
+            foreach (var entry in entries)
+            {
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entry.Entity.CreatedAt = DateTime.UtcNow;
+                        entry.Entity.CreatedBy = "Admin";
+                        entry.Entity.UpdatedAt = DateTime.UtcNow;
+                        entry.Entity.UpdatedBy = "Admin";
+                        break;
+                    case EntityState.Modified:
+                        entry.Entity.UpdatedAt = DateTime.UtcNow;
+                        entry.Entity.UpdatedBy = "Admin";
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+
+            return base.SaveChangesAsync(cancellationToken);
         }
 
 

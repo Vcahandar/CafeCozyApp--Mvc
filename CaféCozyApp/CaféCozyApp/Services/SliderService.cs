@@ -12,7 +12,7 @@ namespace CaféCozyApp.Services
         {
             _context = context;
         }
-        public async Task<IEnumerable<Slider>> GetAllAsync()
+        public async Task<List<Slider>> GetAllAsync()
         {
             return await _context.Sliders.ToListAsync();
         }

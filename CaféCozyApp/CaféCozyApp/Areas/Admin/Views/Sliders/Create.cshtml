@@ -1,0 +1,33 @@
+﻿@model SliderCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="container">
+    <div class="col-md-10">
+        <h1>Create new slider</h1>
+        <form asp-action="create" method="post" enctype="multipart/form-data">
+
+            <div class="form-group">
+                <label asp-for="Description">Slider description</label>
+                <input asp-for="Description" type="text" class="form-control" placeholder="Enter description">
+            </div>
+            <div class="form-group">
+                <label asp-for="Title">Slider title</label>
+                <input asp-for="Title" type="text" class="form-control" placeholder="Enter title">
+            </div>
+            <div class="form-group">
+                <label asp-for="Subtitle">Slider subtitle</label>
+                <input asp-for="Subtitle" type="text" class="form-control" placeholder="Enter subtitle">
+            </div>
+            <div class="form-group">
+                <label asp-for="Photo">Image</label>
+                <input asp-for="Photo" type="file" class="form-control" placeholder="Image">
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+

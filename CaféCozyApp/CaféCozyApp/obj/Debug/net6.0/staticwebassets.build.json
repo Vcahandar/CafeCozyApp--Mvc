@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mAQ3NMz1P6VZKQ197g2GYYKQs/5kGFV1Lm3InSRc4yw=",
+  "Hash": "mbCx5bV5Nf1N0DMeYxtkryrMmXp7O0u6w/n7wUpGrbE=",
   "Source": "CaféCozyApp",
   "BasePath": "_content/CaféCozyApp",
   "Mode": "Default",
@@ -7718,6 +7718,40 @@
       "OriginalItemSpec": "wwwroot\\uploads\\services\\service-4.jpg"
     },
     {
+      "Identity": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\13417c95-92a4-442c-8af8-2d6143b21854 coffe-slider3.jpg",
+      "SourceId": "CaféCozyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\",
+      "BasePath": "_content/CaféCozyApp",
+      "RelativePath": "uploads/sliders/13417c95-92a4-442c-8af8-2d6143b21854 coffe-slider3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sliders\\13417c95-92a4-442c-8af8-2d6143b21854 coffe-slider3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\c39edec3-e103-4678-b2ac-11ac84bf3e06 coffe-slider2.jpg",
+      "SourceId": "CaféCozyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\",
+      "BasePath": "_content/CaféCozyApp",
+      "RelativePath": "uploads/sliders/c39edec3-e103-4678-b2ac-11ac84bf3e06 coffe-slider2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sliders\\c39edec3-e103-4678-b2ac-11ac84bf3e06 coffe-slider2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\carousel-1.jpg",
       "SourceId": "CaféCozyApp",
       "SourceType": "Discovered",
@@ -7801,6 +7835,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\sliders\\coffe-slider3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\e662b6ef-7502-4b8f-8f57-3e3835d8c9fb coffe-slider3.jpg",
+      "SourceId": "CaféCozyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\",
+      "BasePath": "_content/CaféCozyApp",
+      "RelativePath": "uploads/sliders/e662b6ef-7502-4b8f-8f57-3e3835d8c9fb coffe-slider3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sliders\\e662b6ef-7502-4b8f-8f57-3e3835d8c9fb coffe-slider3.jpg"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\visitors\\20863742-c930-4dfd-b6c1-6060e1ce192cmenu-17.jpg",
