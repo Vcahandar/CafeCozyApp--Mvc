@@ -1,0 +1,27 @@
+﻿@model ContactCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="container">
+    <div class="col-md-10">
+        <h1>Create new contact</h1>
+        <form asp-action="create" method="post">
+            <div class="form-group">
+                <label asp-for="LocationAdress">Location Adress</label>
+                <input asp-for="LocationAdress" type="text" class="form-control" placeholder="Enter Location Adress">
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber">Phone Number</label>
+                <input asp-for="PhoneNumber" type="text" class="form-control" placeholder="Enter Phone Number">
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailAdress">Email Adress</label>
+                <input asp-for="EmailAdress" type="text" class="form-control" placeholder="Enter Email Adress">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+

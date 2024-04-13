@@ -40,6 +40,8 @@ namespace CaféCozyApp.Data
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
+
+
             var entries = ChangeTracker.Entries<BaseEntity>();
             foreach (var entry in entries)
             {

@@ -1,0 +1,61 @@
+﻿@model List<ProductCategory>
+
+@{
+    int count = 0;
+    ViewData["Title"] = "Index";
+}
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-md-10">
+            <a asp-action="create" class="btn btn-primary">CREATE</a>
+        </div>
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header pb-0">
+                    <h6>Categories table</h6>
+                </div>
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-secondary opacity-7"></th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Count of Products</th>
+                                    <th class="text-secondary opacity-7"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (ProductCategory category in Model)
+                                {
+                                    count++;
+                                    <tr>
+                                        <td class="align-middle">
+                                            <p>@count</p>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex px-2 py-1">
+                                                <div class="d-flex flex-column justify-content-center">
+                                                    <h6 class="mb-0 text-sm text-center">@category.Name</h6>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <p class="text-xs font-weight-bold mb-0 text-ellipsisself">@category.Products.Count()</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <a asp-action="edit" asp-route-id="@category.Id" class="btn btn-warning"><i class="fa-solid fa-pencil"></i></a>
+                                            <a asp-action="delete" asp-route-id="@category.Id" class="btn btn-danger sweet-delete"><i class="fa-solid fa-trash-can"></i></a>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

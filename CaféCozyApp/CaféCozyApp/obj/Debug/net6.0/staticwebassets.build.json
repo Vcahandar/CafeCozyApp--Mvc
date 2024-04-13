@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mbCx5bV5Nf1N0DMeYxtkryrMmXp7O0u6w/n7wUpGrbE=",
+  "Hash": "LiDjIE5bmcz/FOG89XYCqaNy5TQMAvCFAdWZpFE+mhs=",
   "Source": "CaféCozyApp",
   "BasePath": "_content/CaféCozyApp",
   "Mode": "Default",
@@ -7750,40 +7750,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\sliders\\c39edec3-e103-4678-b2ac-11ac84bf3e06 coffe-slider2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\carousel-1.jpg",
-      "SourceId": "CaféCozyApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\",
-      "BasePath": "_content/CaféCozyApp",
-      "RelativePath": "uploads/sliders/carousel-1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\sliders\\carousel-1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\carousel-2.jpg",
-      "SourceId": "CaféCozyApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\",
-      "BasePath": "_content/CaféCozyApp",
-      "RelativePath": "uploads/sliders/carousel-2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\sliders\\carousel-2.jpg"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\sliders\\coffe-slider.jpg",

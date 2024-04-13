@@ -72,6 +72,7 @@ namespace CaféCozyApp.Areas.Admin.Controllers
                     Subtitle = slider.Subtitle,
 
                 };
+
                 await _context.Sliders.AddAsync(newSlider);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
