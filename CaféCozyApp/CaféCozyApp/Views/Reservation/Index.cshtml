@@ -1,4 +1,8 @@
-﻿<!-- Page Header Start -->
+﻿@model Reservation
+
+
+
+<!-- Page Header Start -->
 <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
     <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
         <p class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Reservation</p>
@@ -11,7 +15,7 @@
 </div>
 <!-- Page Header End -->
 <!-- Reservation Start -->
-<div class="container-fluid py-5">
+<div class="container-fluid my-5">
     <div class="container">
         <div class="reservation position-relative overlay-top overlay-bottom">
             <div class="row align-items-center">
@@ -19,45 +23,97 @@
                     <div class="p-5">
                         <div class="mb-4">
                             <h1 class="display-3 text-primary">30% OFF</h1>
-                            <h1 class="text-white">For Online Reservation</h1>
+                            <h1 class="text-white">Onlayn rezervasiya üçün</h1>
                         </div>
-                        <p class="text-white">Whether you’re on a phone, tablet or laptop, your Desvelar order is at your fingertips. Explore the menu, customize your order just how you like it, and find the store location that’s best for you</p>
+                        <p class="text-white">
+                            Telefon, planşet və ya noutbukda olmağınızdan asılı olmayaraq,
+                            CaféCozy-da rezervasiyanız əlinizin altındadır. Menyunu araşdırın, sifarişinizi
+                            fərdiləşdirin və sizə ən uyğun filial yerini tapın.
+                            Onlayn rezervasiya edin, dostlarınızla yaxşı vaxt keçirərkən endirimli qiymətlərdən həzz
+                            alın
+                        </p>
                         <ul class="list-inline text-white m-0">
-                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Take advantage of the discount</li>
-                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Order & pay ahead</li>
-                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Get to free faster</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Endirimdən yararlanın</li>
+                            <li class="py-2">
+                                <i class="fa fa-check text-primary mr-3"></i>Sifariş edin və qabaqcadan
+                                ödəyin
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
-                        <h1 class="text-white mb-4 mt-5">Book Your Table</h1>
-                        <form class="mb-5" method="post" action="/Reservation">
+                        <h1 class="text-white mb-4 mt-5">Masanızı rezerv edin</h1>
+                        <form class="mb-5" method="post" asp-action="index">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control bg-transparent border-primary p-4" placeholder="Name" required="required" data-val="true" data-val-maxlength="The field Name must be a string or array type with a maximum length of &#x27;50&#x27;." data-val-maxlength-max="50" data-val-required="The Name field is required." id="Name" maxlength="50" value="" />
-                                <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+                                <input type="text" asp-for="Name" name="name" class="form-control bg-transparent border-primary p-4" placeholder="Name"
+                                       required="required" />
+                                <span class="text-danger" asp-validation-for="Name"></span>
                             </div>
                             <div class="form-group">
-                                <input type="email" name="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" id="email" required="required" data-val="true" data-val-required="The Email field is required." value="" />
-                                <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                                <input type="text" asp-for="PhoneNumber" name="phoneNumber" class="form-control bg-transparent border-primary p-4" placeholder="PhoneNumber" id="email"
+                                       required="required" />
+                                <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" asp-for="Email" name="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" id="email"
+                                       required="required" />
+                                <span class="text-danger" asp-validation-for="Email"></span>
                             </div>
                             <div class="form-group">
                                 <div class="date" id="date" data-target-input="nearest">
-                                    <input type="datetime" id="date" name="date" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker" data-val="true" data-val-required="The Date field is required." value="" />
-                                    <span class="text-danger field-validation-valid" data-valmsg-for="Date" data-valmsg-replace="true"></span>
+                                    <input type="datetime" asp-for="Date" id="date" name="date" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker" />
+                                    <span class="text-danger" asp-validation-for="Date"></span>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="time" id="time" data-target-input="nearest">
-                                    <input type="datetime" id="time" name="time" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker" data-val="true" data-val-required="The Time field is required." value="" />
-                                    <span class="text-danger field-validation-valid" data-valmsg-for="Time" data-valmsg-replace="true"></span>
+                                    <input type="datetime" asp-for="Time" id="time" name="time" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker" />
+                                    <span class="text-danger" asp-validation-for="Time"></span>
                                 </div>
                             </div>
-
                             <div>
-                                <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Book Now</button>
+                                <button id="reserveButton" class="btn btn-primary btn-block sweet-delete font-weight-bold py-3" type="submit" onclick="showReservationSuccess()">
+                                    İndi rezerv edin
+                                </button> 
+@*                                 <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">
+                                    İndi
+                                    rezerv edin
+                                </button> *@
                             </div>
-                            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8IOjpS2yV11FjeNn0v143MeV-n8bcr_7zXLqc3M071VZatsKwc4iunXHXUMd6CWWMVrPDfjIVXC9Hal03-9JFgTlZdVjKTghzKkJef_TxuF-LASqAMfzKdQqE9CXVPEZy7swS_-DTMXoGYKy-g2m6E8" />
+
+                            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                            <script>
+                                function showReservationSuccess() {
+                                    // Check if any of the input fields are empty
+                                    var name = document.getElementsByName("name")[0].value;
+                                    var phoneNumber = document.getElementsByName("phoneNumber")[0].value;
+                                    var email = document.getElementsByName("email")[0].value;
+                                    var date = document.getElementsByName("date")[0].value;
+                                    var time = document.getElementsByName("time")[0].value;
+
+                                    if (name === "" || phoneNumber === "" || email === "" || date === "" || time === "") {
+                                        // If any of the fields are empty, don't show the success alert
+                                        return;
+                                    }
+
+                                    // SweetAlert işlevini tetikle
+                                    Swal.fire({
+                                        height: 150,
+                                        width: 400,
+                                        position: "top-end",
+                                        icon: "success",
+                                        title: "Rezervasiyanız uğurludur!",
+                                        showConfirmButton: false,
+                                        timer: 1500
+                                    });
+                                }
+
+                            </script>
+
+                         
+                            @* <input name="__RequestVerificationToken" type="hidden"
+                            value="CfDJ8IOjpS2yV11FjeNn0v143MfDYXiybOFZ5xWVpITkUtmWeWuxIHf9tNK5BWS-QdFqBwe_eRmSR0PLK-H7tgvzKBXS7hcs9mDetMD8FJLEaNOgQzAb95gMeKVB0mGU3QhcfbcyOfP-K2NRMrrqyI9SzGM" />*@
                         </form>
                     </div>
                 </div>
@@ -65,4 +121,6 @@
         </div>
     </div>
 </div>
+
+
 <!-- Reservation End -->

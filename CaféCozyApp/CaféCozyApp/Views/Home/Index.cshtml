@@ -303,43 +303,32 @@
                 <div class="col-lg-6">
                     <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
                         <h1 class="text-white mb-4 mt-5">Masanızı rezerv edin</h1>
-                        <form class="mb-5" method="post" action="/">
+                        <form class="mb-5" method="post" asp-action="index">
                             <div class="form-group">
-                                <input type="text" name="name"
-                                       class="form-control bg-transparent border-primary p-4" placeholder="Ad"
-                                       required="required" data-val="true"
-                                       data-val-maxlength="The field Name must be a string or array type with a maximum length of &#x27;50&#x27;."
-                                       data-val-maxlength-max="50" data-val-required="The Name field is required."
-                                       id="reservation_Name" maxlength="50" value="" />
-                                <span class="text-danger field-validation-valid" data-valmsg-for="reservation.Name"
-                                      data-valmsg-replace="true"></span>
+                                <input type="text" asp-for="@Model.reservation.Name" name="name" class="form-control bg-transparent border-primary p-4" placeholder="Name"
+                                       required="required" />
+                                <span class="text-danger" asp-validation-for="@Model.reservation.Name"></span>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="email"
-                                       class="form-control bg-transparent border-primary p-4"
-                                       placeholder="Telefon nömrəsi" id="email" required="required" data-val="true"
-                                       data-val-required="The Email field is required." value="" />
-                                <span class="text-danger field-validation-valid" data-valmsg-for="reservation.Email"
-                                      data-valmsg-replace="true"></span>
+                                <input type="text" asp-for="@Model.reservation.PhoneNumber" name="phoneNumber" class="form-control bg-transparent border-primary p-4" placeholder="PhoneNumber" id="email"
+                                       required="required" />
+                                <span class="text-danger" asp-validation-for="@Model.reservation.PhoneNumber"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" asp-for="@Model.reservation.Email" name="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" id="email"
+                                       required="required" />
+                                <span class="text-danger" asp-validation-for="@Model.reservation.Email"></span>
                             </div>
                             <div class="form-group">
                                 <div class="date" id="date" data-target-input="nearest">
-                                    <input type="datetime" id="date" name="date"
-                                           class="form-control bg-transparent border-primary p-4 datetimepicker-input"
-                                           placeholder="Tarix" data-target="#date" data-toggle="datetimepicker"
-                                           data-val="true" data-val-required="The Date field is required." value="" />
-                                    <span class="text-danger field-validation-valid"
-                                          data-valmsg-for="reservation.Date" data-valmsg-replace="true"></span>
+                                    <input type="datetime" asp-for="@Model.reservation.Date" id="date" name="date" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker" />
+                                    <span class="text-danger" asp-validation-for="@Model.reservation.Date"></span>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="time" id="time" data-target-input="nearest">
-                                    <input type="datetime" id="time" name="time"
-                                           class="form-control bg-transparent border-primary p-4 datetimepicker-input"
-                                           placeholder="Vaxt" data-target="#time" data-toggle="datetimepicker"
-                                           data-val="true" data-val-required="The Time field is required." value="" />
-                                    <span class="text-danger field-validation-valid"
-                                          data-valmsg-for="reservation.Time" data-valmsg-replace="true"></span>
+                                    <input type="datetime" asp-for="@Model.reservation.Time" id="time" name="time" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker" />
+                                    <span class="text-danger" asp-validation-for="@Model.reservation.Time"></span>
                                 </div>
                             </div>
                             <div>
@@ -348,8 +337,8 @@
                                     rezerv edin
                                 </button>
                             </div>
-                            <input name="__RequestVerificationToken" type="hidden"
-                                   value="CfDJ8IOjpS2yV11FjeNn0v143MfDYXiybOFZ5xWVpITkUtmWeWuxIHf9tNK5BWS-QdFqBwe_eRmSR0PLK-H7tgvzKBXS7hcs9mDetMD8FJLEaNOgQzAb95gMeKVB0mGU3QhcfbcyOfP-K2NRMrrqyI9SzGM" />
+                            @* <input name="__RequestVerificationToken" type="hidden"
+                            value="CfDJ8IOjpS2yV11FjeNn0v143MfDYXiybOFZ5xWVpITkUtmWeWuxIHf9tNK5BWS-QdFqBwe_eRmSR0PLK-H7tgvzKBXS7hcs9mDetMD8FJLEaNOgQzAb95gMeKVB0mGU3QhcfbcyOfP-K2NRMrrqyI9SzGM" />*@
                         </form>
                     </div>
                 </div>

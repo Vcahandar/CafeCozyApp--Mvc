@@ -1,0 +1,67 @@
+﻿@model List<Reservation>
+
+@{
+    int count = 0;
+    ViewData["Title"] = "Index";
+}
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-md-10">
+        </div>
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header pb-0">
+                    <h6>Reservations table</h6>
+                </div>
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-secondary opacity-7"></th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Phone Number</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Email</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Date</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Time</th>
+                                    <th class="text-secondary opacity-7"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (Reservation reservation in Model)
+                                {
+                                    count++;
+                                    <tr>
+                                        <td class="align-middle">
+                                            <p>@count</p>
+                                        </td>
+                                        <td class="align-middle text-sm">
+                                            <p class="text-xs font-weight-bold mb-0">@reservation.Name</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <p class="text-xs font-weight-bold mb-0">@reservation.PhoneNumber</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <p class="text-xs font-weight-bold mb-0">@reservation.Email</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@reservation.Date.ToString("dd MMMM yyyy")</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@reservation.Time.ToString("HH:mm")</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <a asp-action="delete" asp-route-id="@reservation.Id" class="btn btn-success sweet-delete"><i class="fa-solid fa-check"></i></a>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

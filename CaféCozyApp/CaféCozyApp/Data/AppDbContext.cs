@@ -33,7 +33,6 @@ namespace CaféCozyApp.Data
             modelBuilder.Entity<Message>().HasQueryFilter(m => !m.IsDeleted);
             modelBuilder.Entity<Subscriber>().HasQueryFilter(m => !m.IsDeleted);
             modelBuilder.Entity<Service>().HasQueryFilter(m => !m.IsDeleted);
-            modelBuilder.Entity<Reservation>().HasQueryFilter(m => !m.IsDeleted);
             modelBuilder.Entity<AboutFeature>().HasQueryFilter(m => !m.IsDeleted);
 
         }

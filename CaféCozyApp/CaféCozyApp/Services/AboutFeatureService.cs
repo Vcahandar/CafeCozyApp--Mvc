@@ -14,7 +14,7 @@ namespace CaféCozyApp.Services
         }
 
 
-        public async Task<IEnumerable<AboutFeature>> GetAllAsync()
+        public async Task<List<AboutFeature>> GetAllAsync()
         {
             return await _context.AboutFeatures.ToListAsync();
         }

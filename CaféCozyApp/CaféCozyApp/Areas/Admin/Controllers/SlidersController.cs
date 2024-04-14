@@ -3,9 +3,7 @@ using CaféCozyApp.Data;
 using CaféCozyApp.Helpers;
 using CaféCozyApp.Models;
 using CaféCozyApp.Services.Interfaces;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace CaféCozyApp.Areas.Admin.Controllers
 {

@@ -1,0 +1,55 @@
+﻿@model AboutFeatureUpdateVM
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container">
+    <div class="col-md-10">
+        <h1>Edit about page</h1>
+        <form asp-action="edit" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="TitleFirst">Title First</label>
+                <input asp-for="TitleFirst" type="text" class="form-control" placeholder="Enter Title First">
+            </div>
+            <div class="form-group">
+                <label asp-for="TitleSecond">Title Second</label>
+                <input asp-for="TitleSecond" type="text" class="form-control" placeholder="Enter Title Second">
+            </div>
+            <div class="form-group">
+                <label asp-for="TitleThird">Title Third</label>
+                <input asp-for="TitleThird" type="text" class="form-control" placeholder="Enter Title Third">
+            </div>
+            <div class="form-group">
+                <label asp-for="DescriptionFirst">Feature Description First</label>
+                <textarea asp-for="DescriptionFirst" type="text" class="form-control" placeholder="Enter Description First" rows="7"></textarea>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescriptionSecond">Feature Description Second</label>
+                <textarea asp-for="DescriptionSecond" type="text" class="form-control" placeholder="Enter Description Second" rows="7"></textarea>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescriptionThird">Feature Description Third</label>
+                <textarea asp-for="DescriptionThird" type="text" class="form-control" placeholder="Enter Description Third" rows="7"></textarea>
+            </div>
+            <div class="form-group">
+                <label asp-for="AddedTextFirst">Feature AddedText First</label>
+                <input asp-for="AddedTextFirst" type="text" class="form-control" placeholder="Enter AddedText First">
+            </div>
+            <div class="form-group">
+                <label asp-for="AddedTextSecond">Feature AddedText Second</label>
+                <input asp-for="AddedTextSecond" type="text" class="form-control" placeholder="Enter AddedText Second">
+            </div>
+            <div class="form-group">
+                <label asp-for="AddedTextThird">Feature AddedText Third</label>
+                <input asp-for="AddedTextThird" type="text" class="form-control" placeholder="Enter AddedText Third">
+            </div>
+            <div class="form-group">
+                <label asp-for="Photo">Image</label>
+                <input asp-for="Photo" type="file" class="form-control" placeholder="Image">
+                <img class="w-15" src="~/uploads/about/@Model.ImageUrl" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+

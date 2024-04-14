@@ -1,4 +1,11 @@
-﻿<!-- Page Header Start -->
+﻿
+
+@model AboutVM
+@{
+    ViewData["Title"] = "About";
+}
+
+<!-- Page Header Start -->
 <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
     <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
         <p class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">About Us</p>
@@ -18,24 +25,24 @@
         </div>
         <div class="row">
             <div class="col-lg-4 py-0 py-lg-5">
-                <h3 class="mb-3">Our Stories</h3>
-                <p>The &#x201C;CaféCozy&#x201D; brand was established in Sumgait in 2020. Originally it was a non-profit, small audience place where people stopped by with friends, had coffee and read a book. Later, the people of the city liked this place and recommended it to each other, which increased the popularity of this brand in the city. The &#x201C;Desveldo&#x201D; brand, which later opened a branch in Baku, was also successful in this city and achieved a good turnover at the end of the year. Baku branch became the turning point of the &#x201C;CaféCozy&#x201D; brand. Many celebrities liked this place and recommended it to their famous friends, causing the brand&#x27;s popularity to increase. The company opened its 3rd branch in New York, USA in 2021 and 4th branch in London, England, in 2022</p>
+                <h3 class="mb-3">@Model.AboutFeatures[0].TitleFirst</h3>
+                <p>@Model.AboutFeatures[0].DescriptionFirst</p>
             </div>
             <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="/uploads/about/about.png" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100" src="~/uploads/about/@Model.AboutFeatures[0].ImageUrl" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-4 py-0 py-lg-5">
-                <h3 class="mb-3">Our Vision</h3>
-                <p>Coffee is at our heart, inspiring our craft and driving innovation&#x2014;in our drinks, our stores and new ways we bring the CaféCozy experience to you wherever you are. Every coffee has a story to tell, and I could not be more excited for people to be more connected to the whole coffee experience, from bean to cup, and meet the many people whose hard work, time and attention makes coffee possible</p>
-                <p>With our partners, our coffee and our customers at our core, we live these values :</p>
-                <p class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Creating a culture of warmth and belonging, where everyone is welcome</p>
-                <p class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Delivering our very best in all we do, holding ourselves accountable for results</p>
+                <h3 class="mb-3">@Model.AboutFeatures[0].TitleSecond</h3>
+                <p>@Model.AboutFeatures[0].DescriptionSecond</p>
+                <p>@Model.AboutFeatures[0].AddedTextFirst</p>
+                <p class="mb-3"><i class="fa fa-check text-primary mr-3"></i>@Model.AboutFeatures[0].AddedTextSecond</p>
+                <p class="mb-3"><i class="fa fa-check text-primary mr-3"></i>@Model.AboutFeatures[0].AddedTextThird</p>
             </div>
             <div class="col-lg-12 py-0 py-lg-5 text-center">
-                <h3 class="mb-3">Our Goals</h3>
-                <p>Our goal is to open branches in different cities of different countries, to be known worldwide and to be the first name that comes to mind when it comes to coffee</p>
+                <h3 class="mb-3">@Model.AboutFeatures[0].TitleThird</h3>
+                <p>@Model.AboutFeatures[0].DescriptionThird</p>
             </div>
         </div>
     </div>
