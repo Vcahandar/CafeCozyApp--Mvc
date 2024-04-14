@@ -332,11 +332,40 @@
                                 </div>
                             </div>
                             <div>
-                                <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">
-                                    İndi
-                                    rezerv edin
+                                <button id="reserveButton" class="btn btn-primary btn-block sweet-delete font-weight-bold py-3" type="submit" onclick="showReservationSuccess()">
+                                    İndi rezerv edin
                                 </button>
                             </div>
+
+                            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                            <script>
+                                function showReservationSuccess() {
+                                    // Check if any of the input fields are empty
+                                    var name = document.getElementsByName("name")[0].value;
+                                    var phoneNumber = document.getElementsByName("phoneNumber")[0].value;
+                                    var email = document.getElementsByName("email")[0].value;
+                                    var date = document.getElementsByName("date")[0].value;
+                                    var time = document.getElementsByName("time")[0].value;
+
+                                    if (name === "" || phoneNumber === "" || email === "" || date === "" || time === "") {
+                                        // If any of the fields are empty, don't show the success alert
+                                        return;
+                                    }
+
+                                    // SweetAlert işlevini tetikle
+                                    Swal.fire({
+                                        height: 150,
+                                        width: 400,
+                                        position: "top-end",
+                                        icon: "success",
+                                        title: "Rezervasiyanız uğurludur!",
+                                        showConfirmButton: false,
+                                        timer: 1500
+                                    });
+                                }
+
+                            </script>
+
                             @* <input name="__RequestVerificationToken" type="hidden"
                             value="CfDJ8IOjpS2yV11FjeNn0v143MfDYXiybOFZ5xWVpITkUtmWeWuxIHf9tNK5BWS-QdFqBwe_eRmSR0PLK-H7tgvzKBXS7hcs9mDetMD8FJLEaNOgQzAb95gMeKVB0mGU3QhcfbcyOfP-K2NRMrrqyI9SzGM" />*@
                         </form>

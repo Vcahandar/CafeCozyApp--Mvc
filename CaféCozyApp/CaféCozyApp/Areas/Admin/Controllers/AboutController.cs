@@ -48,7 +48,7 @@ namespace CaféCozyApp.Areas.Admin.Controllers
                     TitleFirst = dbAboutFeature.TitleFirst,
                     TitleSecond = dbAboutFeature.TitleSecond,
                     TitleThird = dbAboutFeature.TitleThird,
-                    DescriptionFirst = dbAboutFeature.DescriptionThird,
+                    DescriptionFirst = dbAboutFeature.DescriptionFirst,
                     DescriptionSecond = dbAboutFeature.DescriptionSecond,
                     DescriptionThird = dbAboutFeature.DescriptionThird,
                     AddedTextFirst = dbAboutFeature.AddedTextFirst,
