@@ -12,12 +12,21 @@ namespace CaféCozyApp.Controllers
         private readonly AppDbContext _context;
         private readonly ISliderService _sliderService;
         private readonly IAppService _appService;
+        private readonly ICategoryService _categoryService;
+        private readonly IProductService _productService;
 
-        public HomeController(AppDbContext context, ISliderService sliderService, IAppService appService)
+
+        public HomeController(AppDbContext context, 
+                                ISliderService sliderService,
+                                IAppService appService, 
+                                ICategoryService categoryService,
+                                IProductService productService)
         {
             _context = context;
             _sliderService = sliderService;
             _appService = appService;
+            _categoryService = categoryService;
+            _productService = productService;
         }
 
         [HttpGet]
@@ -25,11 +34,16 @@ namespace CaféCozyApp.Controllers
         {
             List<Slider> sliders = await _sliderService.GetAllAsync();
             IEnumerable<Service> services = await _appService.GetAllAsync();
+            List<ProductCategory> categories = await _categoryService.GetAll();
+            List<Product> products = await _productService.GetAll();
+
 
             HomeVM homeVM = new HomeVM
             {
                 Sliders = sliders,
-                Services = services
+                Services = services,
+                ProductCategories = categories,
+                Products = products
             };
 
             return View(homeVM);

@@ -28,6 +28,7 @@ builder.Services.AddScoped<ILayoutService, LayoutService>();
 builder.Services.AddScoped<IReservationService, ReservationService>();
 builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<ISubscriberService, SubscriberService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 
 

@@ -1,6 +1,9 @@
 ﻿@model HomeVM
 
-
+@{
+    ViewData["Title"] = "Index";
+    int z = 0;
+}
 
 <!-- Carousel Start -->
 <div class="container-fluid p-0 mb-5">
@@ -63,166 +66,44 @@
 </div>
 <!-- Design -->
 <!-- Menu Start -->
+<!-- Menu Start -->
 <div class="container-fluid pt-5">
     <div class="container">
         <div class="section-title">
-            <p class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & QİYMƏTLƏR</p>
+            <p class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</p>
         </div>
         <div class="row">
-            <div class="col-lg-6">
-                <h1 class="mb-5">Hot Coffee</h1>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-1.jpg" alt="">
-                        <h2 class="menu-price">₼3</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Caff&#xE8; Americano</h4>
-                        <p class="m-0">15 calories, 0g sugar, 0g fat</p>
-                    </div>
+            @while (z < 2)
+            {
+                <div class="col-lg-6">
+                    <h1 class="mb-5">@Model.ProductCategories[z].Name</h1>
+                    @for (int j = 0; j < Model.Products.Count; j++)
+                    {
+                        @if (Model.Products[j].CategoryId == Model.ProductCategories[z].Id)
+                        {
+                            <div class="row align-items-center mb-5">
+                                <div class="col-4 col-sm-3">
+                                    <img class="w-100 rounded-circle mb-3 mb-sm-0" src="~/uploads/products/@Model.Products[j].ImageUrl" alt="">
+                                    <h2 class="menu-price">₼@Model.Products[j].Price</h2>
+                                </div>
+                                <div class="col-8 col-sm-9">
+                                    <h4>@Model.Products[j].Name</h4>
+                                    <p class="m-0">@Model.Products[j].Description</p>
+                                </div>
+                            </div>
+                        }
+                    }
                 </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-2.jpg" alt="">
-                        <h2 class="menu-price">₼4</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Cappuccino</h4>
-                        <p class="m-0">140 calories, 12g sugar, 5g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-3.jpg" alt="">
-                        <h2 class="menu-price">₼4</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Caff&#xE8; Mocha</h4>
-                        <p class="m-0">370 calories, 35g sugar, 15g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-7.jpg" alt="">
-                        <h2 class="menu-price">₼4</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Caff&#xE8; Misto</h4>
-                        <p class="m-0">110 calories, 10g sugar, 4g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-8.jpg" alt="">
-                        <h2 class="menu-price">₼5</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Caramel Macchiato</h4>
-                        <p class="m-0">250 calories, 33g sugar, 7g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-9.jpg" alt="">
-                        <h2 class="menu-price">₼3</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Espresso</h4>
-                        <p class="m-0">10 calories, 0g sugar, 0g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-10.jpg" alt="">
-                        <h2 class="menu-price">₼4</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Caff&#xE8; Latte</h4>
-                        <p class="m-0">190 calories, 18g sugar, 7g fat</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <h1 class="mb-5">Cold Coffee</h1>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-4.jpg" alt="">
-                        <h2 class="menu-price">₼5</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Iced Caff&#xE8; Americano</h4>
-                        <p class="m-0">15 calories, 0g sugar, 0g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-5.jpg" alt="">
-                        <h2 class="menu-price">₼5</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Iced Caff&#xE8; Latte</h4>
-                        <p class="m-0">130 calories, 11g sugar, 4.5g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-6.jpg" alt="">
-                        <h2 class="menu-price">₼6</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Iced Caramel Macchiato</h4>
-                        <p class="m-0">250 calories, 34g sugar, 7g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-11.jpg" alt="">
-                        <h2 class="menu-price">₼4</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Iced Espresso</h4>
-                        <p class="m-0">10 calories, 0g sugar, 0g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-12.jpg" alt="">
-                        <h2 class="menu-price">₼5</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Iced Flat White</h4>
-                        <p class="m-0">150 calories, 11g sugar, 8g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-13.jpg" alt="">
-                        <h2 class="menu-price">₼6</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Iced Shaken Espresso</h4>
-                        <p class="m-0">100 calories, 14g sugar, 2g fat</p>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-5">
-                    <div class="col-4 col-sm-3">
-                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/uploads/products/menu-14.jpg" alt="">
-                        <h2 class="menu-price">₼6</h2>
-                    </div>
-                    <div class="col-8 col-sm-9">
-                        <h4>Iced White Chocolate Mocha</h4>
-                        <p class="m-0">420 calories, 48g sugar, 20g fat</p>
-                    </div>
-                </div>
-            </div>
+                z++;
+            }
 
             <div class="col-lg-12 d-flex justify-content-center">
-                <a class="btn btn-primary font-weight-bold py-2 px-4 mt-2" href="/menu">Tam Menyu</a>
+                <a asp-controller="menu" asp-action="index" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Tam Menyu</a>
             </div>
         </div>
     </div>
 </div>
-<!-- Menu End -->
+<!-- Menu End --><!-- Menu End -->
 <!-- Design -->
 <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
     <div class="container py-5"></div>
@@ -236,7 +117,7 @@
                 <div class="col-lg-6 my-5 my-lg-0">
                     <div class="p-5">
                         <div class="mb-4">
-                            <h1 class="display-3 text-primary">30% OFF</h1>
+                            <h1 class="display-3 text-primary">30% ENDİRİM</h1>
                             <h1 class="text-white">Onlayn rezervasiya üçün</h1>
                         </div>
                         <p class="text-white">

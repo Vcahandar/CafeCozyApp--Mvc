@@ -38,15 +38,15 @@ namespace CaféCozyApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(Message message)
         {
-            if (!ModelState.IsValid)
-            {
-                return View();
-            }
+            //if (!ModelState.IsValid)
+            //{
+            //    return View();
+            //}
 
-            _context.Messages.Add(message);
-            _context.SaveChanges();
+            _context.Messages.AddAsync(message);
+            _context.SaveChangesAsync();
 
-            return RedirectToAction("Contact");
+            return RedirectToAction("Index");
         }
     }
 }

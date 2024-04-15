@@ -1,0 +1,73 @@
+﻿@using CaféCozyApp.Areas.Admin.ViewModels.Account;
+@model AdminLoginVM
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="~/admin/login/assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>CaféCozy Admin Login</title>
+</head>
+<body>
+    <div class="login">
+        <div class="login__content">
+            <div class="login__img">
+                <img src="~/admin/login/assets/img/img-login.svg" alt="">
+            </div>
+
+            <div class="login__forms">
+                <form asp-action="login" method="post" class="login__registre" id="login-in">
+                    <h1 class="login__title">Sign In</h1>
+
+                    <div class="login__box">
+                        <i class='bx bx-user login__icon'></i>
+                        <input asp-for="UserName" type="text" placeholder="Username" class="login__input">
+                    </div>
+
+                    <div class="login__box">
+                        <i class='bx bx-lock-alt login__icon'></i>
+                        <input asp-for="Password" type="password" placeholder="Password" class="login__input">
+                    </div>
+
+
+                    <form asp-action="login" method="post" class="login__registre" id="login-in">
+                        <!-- Form içeriği burada -->
+                        <a href="#" class="login__button" id="signInButton">Sign In</a>
+                    </form>
+
+                    <script>
+                        document.addEventListener("keydown", function (event) {
+                            if (event.key === "Enter") { 
+                                document.getElementById("login-in").submit(); 
+                            }
+                        });
+
+                        document.getElementById("signInButton").addEventListener("click", function (event) {
+                            event.preventDefault(); 
+                            document.getElementById("login-in").submit(); 
+                        });
+                    </script>
+
+
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!--===== MAIN JS =====-->
+    <script src="~/admin/login/assets/js/main.js"></script>
+</body>
+</html>

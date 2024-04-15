@@ -12,7 +12,6 @@ namespace CaféCozyApp.Models
         public string ImageUrl { get; set; }
 
 
-
         public int CategoryId { get; set; }
         public ProductCategory Category { get; set; }
     }
