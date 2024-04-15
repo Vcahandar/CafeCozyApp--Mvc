@@ -1,0 +1,35 @@
+﻿@model ServiceUpdateVM
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container">
+    <div class="col-md-10">
+        <h1>Edit current service</h1>
+        <form asp-action="edit" method="post" enctype="multipart/form-data">
+
+            <div class="form-group">
+                <label asp-for="Photo">Service Image</label>
+                <input asp-for="Photo" type="file" class="form-control" placeholder="Image">
+                <img class="w-15" src="~/uploads/services/@Model.ImageUrl" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Title">Service title</label>
+                <input asp-for="Title" type="text" class="form-control" placeholder="Enter title">
+            </div>
+            <div class="form-group">
+                <label asp-for="Description">Service description</label>
+                <input asp-for="Description" type="text" class="form-control" placeholder="Enter description">
+            </div>
+            <div class="form-group">
+                <label asp-for="IconUrl">Icon url</label>
+                <input asp-for="IconUrl" type="text" class="form-control" placeholder="Enter url">
+            </div>
+
+
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+

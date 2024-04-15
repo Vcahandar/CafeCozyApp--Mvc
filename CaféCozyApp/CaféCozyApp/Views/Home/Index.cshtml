@@ -36,68 +36,23 @@
             <p class="text-primary text-uppercase" style="letter-spacing: 5px;">BİZİM XİDMƏTLƏRİMİZ</p>
         </div>
         <div class="row">
-            <div class="col-lg-6 mb-5">
-                <div class="row align-items-center">
-                    <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="./uploads/services/service-1.jpg" alt="">
-                    </div>
-                    <div class="col-sm-7">
-                        <h5><i class="fa fa-truck service-icon"></i>Ən Sürətli Çatdırılma</h5>
-                        <p class="m-0">Nadir qəhvələr. Xüsusi içkilər və aksesuarlar. Hamısı qapınıza çatdırılır</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mb-5">
-                <div class="row align-items-center">
-                    <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="./uploads/services/service-2.jpg" alt="">
-                    </div>
-                    <div class="col-sm-7">
-                        <h5><i class="fa fa-coffee service-icon"></i>Ən Keyfiyyətli Qəhvə</h5>
-                        <p class="m-0">
-                            Evinizdə sevimli CaféCozy® qəhvənizdən həzz alın. İstər özünüzə vaxt
-                            ayırırsınız, istərsə də dostlarınıza xoş təəssürat bəxş edərsiniz.
-                        </p>
+            @foreach (Service service in Model.Services)
+            {
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="~/uploads/services/@service.ImageUrl" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h5>
+                                @Html.Raw(service.IconUrl)
+                                @service.Title
+                            </h5>
+                            <p class="m-0">@service.Description</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 mb-5">
-                <div class="row align-items-center">
-                    <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="/uploads/services/service-3.jpg" alt="">
-                    </div>
-                    <div class="col-sm-7">
-                        <h5><i class="fa fa-award service-icon"></i>Ən Keyfiyyətli Qəhvə</h5>
-                        <p class="m-0">
-                            Hamımızın (sizin də daxil olmaqla) gözlədiyi üstün dadı yoxlamaq
-                            üçün gündə 1000-dən çox stəkan qəhvə dadırıq.
-                            Qəhvənin bir partiyası təsdiqlənməmişdən əvvəl ən azı üç dəfə dadına baxılır,
-                            ona görə də hər dəfə CaféCozy qəhvəsindən bir qurtum içdiyiniz zaman bu, sevəcəyiniz bir
-                            qurtumdur.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mb-5">
-                <div class="row align-items-center">
-                    <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="/uploads/services/service-4.jpg" alt="">
-                    </div>
-                    <div class="col-sm-7">
-                        <h5>
-                            <i class="fa fa-table service-icon"></i>
-                            Onlayn masa rezervasiyası
-                        </h5>
-                        <p class="m-0">
-                            Telefon, planşet və ya noutbukda olmağınızdan asılı olmayaraq,
-                            CaféCozy-da rezervasiyanız əlinizin altındadır. Menyunu araşdırın,
-                            sifarişinizi fərdiləşdirin və sizə ən uyğun filial yerini tapın.
-                            Onlayn rezervasiya edin, dostlarınızla yaxşı vaxt keçirərkən endirimli qiymətlərdən həzz
-                            alın
-                        </p>
-                    </div>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </div>

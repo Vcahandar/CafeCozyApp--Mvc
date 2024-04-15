@@ -1793,6 +1793,22 @@
       "PackagePath": "staticwebassets\\uploads\\products\\menu-9.jpg"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\services\\21579a5e-015a-4505-aa10-79f2217dd55b service-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\services\\21579a5e-015a-4505-aa10-79f2217dd55b service-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\services\\8cc00e4c-d7e2-4e47-8785-6dcf1f880d6e service-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\services\\8cc00e4c-d7e2-4e47-8785-6dcf1f880d6e service-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\services\\b1c510ce-1e32-4ddc-a7eb-6a92cce3aef7 service-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\services\\b1c510ce-1e32-4ddc-a7eb-6a92cce3aef7 service-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\services\\fbac0a62-585f-40d1-903d-a6189969bdd5 service-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\services\\fbac0a62-585f-40d1-903d-a6189969bdd5 service-2.jpg"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\CaféCozy-Backend-Mvc\\CaféCozyApp\\CaféCozyApp\\wwwroot\\uploads\\services\\service-1.jpg",
       "PackagePath": "staticwebassets\\uploads\\services\\service-1.jpg"
     },
