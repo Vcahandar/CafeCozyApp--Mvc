@@ -2,12 +2,15 @@
 using CaféCozyApp.Models;
 using CaféCozyApp.Services;
 using CaféCozyApp.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CaféCozyApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+
 
     public class ReservationsController : Controller
     {

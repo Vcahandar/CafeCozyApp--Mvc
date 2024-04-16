@@ -4,11 +4,14 @@ using CaféCozyApp.Data;
 using CaféCozyApp.Models;
 using CaféCozyApp.Services;
 using CaféCozyApp.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CaféCozyApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+
     public class ContactsController : Controller
     {
         private readonly AppDbContext _context;

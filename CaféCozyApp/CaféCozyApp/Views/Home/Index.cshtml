@@ -83,7 +83,7 @@
                         {
                             <div class="row align-items-center mb-5">
                                 <div class="col-4 col-sm-3">
-                                    <img class="w-100 rounded-circle mb-3 mb-sm-0" src="~/uploads/products/@Model.Products[j].ImageUrl" alt="">
+                                    <img class="w-100 mb-3 mb-sm-0" src="~/uploads/products/@Model.Products[j].ImageUrl" alt="">
                                     <h2 class="menu-price">₼@Model.Products[j].Price</h2>
                                 </div>
                                 <div class="col-8 col-sm-9">
@@ -141,29 +141,29 @@
                         <h1 class="text-white mb-4 mt-5">Masanızı rezerv edin</h1>
                         <form class="mb-5" method="post" asp-action="index">
                             <div class="form-group">
-                                <input type="text" asp-for="@Model.reservation.Name" name="name" class="form-control bg-transparent border-primary p-4" placeholder="Name"
+                                <input type="text" asp-for="@Model.reservation.Name" name="name" class="form-control bg-transparent border-primary p-4" placeholder="Ad"
                                        required="required" />
                                 <span class="text-danger" asp-validation-for="@Model.reservation.Name"></span>
                             </div>
                             <div class="form-group">
-                                <input type="text" asp-for="@Model.reservation.PhoneNumber" name="phoneNumber" class="form-control bg-transparent border-primary p-4" placeholder="PhoneNumber" id="email"
+                                <input type="text" asp-for="@Model.reservation.PhoneNumber" name="phoneNumber" class="form-control bg-transparent border-primary p-4" placeholder="Telefon nömrəsi" id="email"
                                        required="required" />
                                 <span class="text-danger" asp-validation-for="@Model.reservation.PhoneNumber"></span>
                             </div>
                             <div class="form-group">
-                                <input type="email" asp-for="@Model.reservation.Email" name="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" id="email"
+                                <input type="email" asp-for="@Model.reservation.Email" name="email" class="form-control bg-transparent border-primary p-4" placeholder="E-poçt" id="email"
                                        required="required" />
                                 <span class="text-danger" asp-validation-for="@Model.reservation.Email"></span>
                             </div>
                             <div class="form-group">
                                 <div class="date" id="date" data-target-input="nearest">
-                                    <input type="datetime" asp-for="@Model.reservation.Date" id="date" name="date" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker" />
+                                    <input type="datetime" asp-for="@Model.reservation.Date" id="date" name="date" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Tarix" data-target="#date" data-toggle="datetimepicker" />
                                     <span class="text-danger" asp-validation-for="@Model.reservation.Date"></span>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="time" id="time" data-target-input="nearest">
-                                    <input type="datetime" asp-for="@Model.reservation.Time" id="time" name="time" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker" />
+                                    <input type="datetime" asp-for="@Model.reservation.Time" id="time" name="time" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Vaxt" data-target="#time" data-toggle="datetimepicker" />
                                     <span class="text-danger" asp-validation-for="@Model.reservation.Time"></span>
                                 </div>
                             </div>

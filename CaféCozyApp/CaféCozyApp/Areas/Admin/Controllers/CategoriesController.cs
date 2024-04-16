@@ -3,12 +3,15 @@ using CaféCozyApp.Areas.Admin.ViewModels.Slider;
 using CaféCozyApp.Data;
 using CaféCozyApp.Models;
 using CaféCozyApp.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CaféCozyApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+
 
     public class CategoriesController : Controller
     {

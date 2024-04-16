@@ -5,6 +5,7 @@ using CaféCozyApp.Helpers;
 using CaféCozyApp.Models;
 using CaféCozyApp.Services;
 using CaféCozyApp.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -12,6 +13,8 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 namespace CaféCozyApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+
     public class ProductsController : Controller
     {
         private readonly AppDbContext _context;
@@ -29,9 +32,38 @@ namespace CaféCozyApp.Areas.Admin.Controllers
 
 
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1, int take = 5)
         {
-            return View(await _productService.GetAll());
+            List<Product> datas = await _productService.GetPaginatedDatas(page, take);
+            List<ProductListVM> mappedDatas = GetMappedDatas(datas);
+            int pageCount = await GetPageCountAsync(take);
+            ViewBag.take = take;
+            Paginate<ProductListVM> paginatedDatas = new(mappedDatas, page, pageCount);
+            return View(paginatedDatas);
+        }
+
+
+        private async Task<int> GetPageCountAsync(int take)
+        {
+            var productCount = await _productService.GetCountAsync();
+            return (int)Math.Ceiling((decimal)productCount / take);
+        }
+        private List<ProductListVM> GetMappedDatas(List<Product> products)
+        {
+            List<ProductListVM> mappedDatas = new();
+            foreach (var product in products)
+            {
+                ProductListVM productList = new()
+                {
+                    Id = product.Id,
+                    Name = product.Name,
+                    Price = product.Price,
+                    ImageUrl = product.ImageUrl,
+                    Description = product.Description,
+                };
+                mappedDatas.Add(productList);
+            }
+            return mappedDatas;
         }
 
 
@@ -188,6 +220,27 @@ namespace CaféCozyApp.Areas.Admin.Controllers
             }
         }
 
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            try
+            {
+                if (id == null) return BadRequest();
+                Product product = await _productService.GetById(id);
+                if (product == null) return NotFound();
+                string path = FileHelper.GetFilePath(_env.WebRootPath, "uploads/products", product.ImageUrl);
+                FileHelper.DeleteFile(path);
+                _context.Products.Remove(product);
+                await _context.SaveChangesAsync();
+                return Ok();
+
+            }
+            catch (Exception ex)
+            {
+                ViewBag.error = ex.Message;
+                return View();
+            }
+        }
 
 
 

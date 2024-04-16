@@ -7,7 +7,7 @@
     <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
         <p class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">REZERVASYON</p>
         <div class="d-inline-flex mb-lg-5">
-            <p class="m-0 text-white"><a class="text-white" href="">Ana səhifə</a></p>
+            <p class="m-0 text-white"><a class="text-white" asp-controller="home" asp-action="Index">Ana səhifə</a></p>
             <p class="m-0 text-white px-2">/</p>
             <p class="m-0 text-white">Rezervasyon</p>
         </div>
@@ -46,29 +46,29 @@
                         <h1 class="text-white mb-4 mt-5">Masanızı rezerv edin</h1>
                         <form class="mb-5" method="post" asp-action="index">
                             <div class="form-group">
-                                <input type="text" asp-for="Name" name="name" class="form-control bg-transparent border-primary p-4" placeholder="Name"
+                                <input type="text" asp-for="Name" name="name" class="form-control bg-transparent border-primary p-4" placeholder="Ad"
                                        required="required" />
                                 <span class="text-danger" asp-validation-for="Name"></span>
                             </div>
                             <div class="form-group">
-                                <input type="text" asp-for="PhoneNumber" name="phoneNumber" class="form-control bg-transparent border-primary p-4" placeholder="PhoneNumber" id="email"
+                                <input type="text" asp-for="PhoneNumber" name="phoneNumber" class="form-control bg-transparent border-primary p-4" placeholder="Telefon nömrəsi" id="email"
                                        required="required" />
                                 <span class="text-danger" asp-validation-for="PhoneNumber"></span>
                             </div>
                             <div class="form-group">
-                                <input type="email" asp-for="Email" name="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" id="email"
+                                <input type="email" asp-for="Email" name="email" class="form-control bg-transparent border-primary p-4" placeholder="E-poçt" id="email"
                                        required="required" />
                                 <span class="text-danger" asp-validation-for="Email"></span>
                             </div>
                             <div class="form-group">
                                 <div class="date" id="date" data-target-input="nearest">
-                                    <input type="datetime" asp-for="Date" id="date" name="date" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker" />
+                                    <input type="datetime" asp-for="Date" id="date" name="date" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Tarix" data-target="#date" data-toggle="datetimepicker" />
                                     <span class="text-danger" asp-validation-for="Date"></span>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="time" id="time" data-target-input="nearest">
-                                    <input type="datetime" asp-for="Time" id="time" name="time" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker" />
+                                    <input type="datetime" asp-for="Time" id="time" name="time" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Vaxt" data-target="#time" data-toggle="datetimepicker" />
                                     <span class="text-danger" asp-validation-for="Time"></span>
                                 </div>
                             </div>

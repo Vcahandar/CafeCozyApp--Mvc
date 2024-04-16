@@ -1,7 +1,8 @@
-﻿@model List<Product>
+﻿@using CaféCozyApp.Helpers;
+@model Paginate<ProductListVM>
 
 @{
-    int count = 0;
+    int count = (Model.CurrentPage - 1) * ViewBag.take;
     ViewData["Title"] = "Index";
 }
 
@@ -25,12 +26,12 @@
                                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Description</th>
                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Image Url</th>
                                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Price</th>
-                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Category</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Operations</th>
                                     <th class="text-secondary opacity-7"></th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (Product product in Model)
+                                @foreach (var product in Model.Datas)
                                 {
                                     count++;
                                     <tr>
@@ -53,9 +54,9 @@
                                         <td class="align-middle text-center text-sm">
                                             <p class="text-xs font-weight-bold mb-0">@product.Price</p>
                                         </td>
-                                        <td class="align-middle text-center text-sm">
-                                            <p class="text-xs font-weight-bold mb-0">@product.Category.Name</p>
-                                        </td>
+                                     @*    <td class="align-middle text-center text-sm">
+                                            <p class="text-xs font-weight-bold mb-0">@product.CategoryId</p>
+                                        </td> *@
                                         <td class="align-middle">
                                             <a asp-action="edit" asp-route-id="@product.Id" class="btn btn-warning"><i class="fa-solid fa-pencil"></i></a>
                                             <a asp-action="delete" asp-route-id="@product.Id" class="btn btn-danger sweet-delete"><i class="fa-solid fa-trash-can"></i></a>
@@ -66,6 +67,23 @@
                             </tbody>
                         </table>
                     </div>
+
+                    <nav aria-label="Page navigation example" style="padding-top: 18px;">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item @(Model.HasPrevious ? " " : "d-none")">
+                                <a asp-action="Index" asp-route-page="@(Model.CurrentPage - 1)" class="page-link" style="background: #696cffd9;color:#fff">Previous</a>
+                            </li>
+                            @for (int i = 1; i <= Model.TotalPage; i++)
+                            {
+                                <li class="page-item  @(Model.CurrentPage == i ? "disabled" : "") ">
+                                    <a asp-action="Index" asp-route-page="@i"><span style="font-weight:600;" class="page-link">@i</span></a>
+                                </li>
+                            }
+                            <li class="page-item @(Model.HasNext ? " " : "d-none")" style="width: 83px;">
+                                <a asp-action="Index" asp-route-page="@(Model.CurrentPage + 1)" class="page-link" style="background: #696cffd9;color:#fff">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>

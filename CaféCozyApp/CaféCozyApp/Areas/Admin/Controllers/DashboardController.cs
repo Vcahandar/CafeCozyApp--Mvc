@@ -1,11 +1,14 @@
 ﻿using CaféCozyApp.Data;
 using CaféCozyApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CaféCozyApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+
     public class DashboardController : Controller
     {
 

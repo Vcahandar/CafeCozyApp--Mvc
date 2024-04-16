@@ -3,11 +3,14 @@ using CaféCozyApp.Data;
 using CaféCozyApp.Helpers;
 using CaféCozyApp.Models;
 using CaféCozyApp.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CaféCozyApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+
     public class SlidersController : Controller
     {
         private readonly ISliderService _sliderService;

@@ -7,7 +7,7 @@
     <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
         <p class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">ƏLAQƏ</p>
         <div class="d-inline-flex mb-lg-5">
-            <p class="m-0 text-white"><a class="text-white" href="">Ana səhifə</a></p>
+            <p class="m-0 text-white"><a class="text-white" asp-controller="home" asp-action="Index">Ana səhifə</a></p>
             <p class="m-0 text-white px-2">/</p>
             <p class="m-0 text-white">Əlaqə</p>
         </div>
@@ -24,7 +24,7 @@
 
             <div class="col-sm-4 text-center mb-3">
                 <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
-                <h4 class="font-weight-bold">Address</h4>
+                <h4 class="font-weight-bold">Ünvan</h4>
                 @foreach (var contact in Model.Contacts)
                 {
                     <p>@contact.LocationAdress</p>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-sm-4 text-center mb-3">
                 <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
-                <h4 class="font-weight-bold">Phone</h4>
+                <h4 class="font-weight-bold">Telefon</h4>
                 @foreach (var contact in Model.Contacts)
                 {
                     <p>@contact.PhoneNumber</p>
@@ -41,7 +41,7 @@
             </div>
             <div class="col-sm-4 text-center mb-3">
                 <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
-                <h4 class="font-weight-bold">Email</h4>
+                <h4 class="font-weight-bold">E-poçt</h4>
                 @foreach (var contact in Model.Contacts)
                 {
                     <p>@contact.EmailAdress</p>
@@ -58,30 +58,29 @@
                     <div id="success"></div>
                     <form asp-action="Index" method="post">
                         <div class="control-group">
-                            <input asp-for="message.Name" type="text" class="form-control bg-transparent p-4" id="name" placeholder="Your Name"
+                            <input asp-for="message.Name" type="text" class="form-control bg-transparent p-4" id="name" placeholder="Adınız"
                                    required="required" data-validation-required-message="Please enter your name" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input asp-for="message.Email" type="email" class="form-control bg-transparent p-4" id="email" placeholder="Your Email"
+                            <input asp-for="message.Email" type="email" class="form-control bg-transparent p-4" id="email" placeholder="E-poçtunuz"
                                    required="required" data-validation-required-message="Please enter your email" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input asp-for="message.Subject" type="text" class="form-control bg-transparent p-4" id="subject" placeholder="Subject"
+                            <input asp-for="message.Subject" type="text" class="form-control bg-transparent p-4" id="subject" placeholder="Mövzu"
                                    required="required" data-validation-required-message="Please enter a subject" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <textarea asp-for="message.Body" class="form-control bg-transparent py-3 px-4" rows="5" id="message" placeholder="Message"
+                            <textarea asp-for="message.Body" class="form-control bg-transparent py-3 px-4" rows="5" id="message" placeholder="Mesajınız"
                                       required="required"
                                       data-validation-required-message="Please enter your message"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div>
                             <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">
-                                Send
-                                Message
+                                Mesaj göndərin
                             </button>
                         </div>
                     </form>
